@@ -9,7 +9,7 @@ function gen() {
             }
             console.log("https://discord.gift/"+code);
             var node = document.createElement("LI");
-            var textnode = document.createTextNode("https://discord.gift/"+code);
+            var textnode = document.createTextNode("'"+code+"',");
             node.appendChild(textnode);
             document.getElementById("myList").appendChild(node);
         }
